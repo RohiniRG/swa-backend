@@ -1,5 +1,6 @@
 db.sqlite3
 venv
+env
 pychache
 .DS_Store
 .env
