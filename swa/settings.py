@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
+    "content",
 ]
 
 MIDDLEWARE = [
@@ -140,3 +141,6 @@ REST_FRAMEWORK = {
 
 AUTH_USER_MODEL = 'users.User'
 swappable = 'AUTH_USER_MODEL'
+
+MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
